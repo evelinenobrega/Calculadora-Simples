@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-size: cover;
+}
+
+#container {
+    width:1000px;
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0,3),rgba(0,0,0,3));
+    margin: 20px auto; 
+}
+
+.operator, .number, .empty {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#calculadora {
+    padding: 10px 0;
+    width: 320px;
+    height: 500px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 29px;
+    position: relative; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#visor {
+    height: 60px;
+    margin: 10px auto;
+    font-size: 30px;
+    width: 90%;
+    display: block;
+}
+
+div#primeira div input:nth-child(4) {
+    background: #b4b4b4;
+}
+
+div#quarta input:nth-child(4) {
+    font-size:20px;
+    background:#dd4470;
+}
+
+div#terceira input:nth-child(4) {
+    font-size:20px;
+    background: #fe72A9;
+}
+
+div#segunda input:nth-child(4) {
+    font-size:20px;
+    background: #c6df76;
+}
+
+div#primeira input:nth-child(4) {
+    font-size:20px;
+    background: #fee383;
+}
+
+div#quinta input:nth-child(4) {
+    font-size:20px;
+    background: #7d930e;
+}
